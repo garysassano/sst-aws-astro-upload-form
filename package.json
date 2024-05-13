@@ -1,0 +1,21 @@
+{
+  "name": "sst-aws-astro-upload-form",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro check && astro build",
+    "dev": "sst dev astro dev",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.6.0",
+    "@aws-sdk/client-s3": "^3.575.0",
+    "@aws-sdk/s3-request-presigner": "^3.575.0",
+    "astro": "^4.8.3",
+    "astro-sst": "2.41.5",
+    "sst": "ion",
+    "typescript": "^5.4.5"
+  }
+}
